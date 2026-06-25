@@ -1,0 +1,11 @@
+logs/
+measurements/
+measurements_backup/
+results/
+analysis/
+__pycache__/
+*.pyc
+*.pt
+*.pkl
+nohup.out
+venv/
