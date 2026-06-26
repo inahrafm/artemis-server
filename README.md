@@ -1,4 +1,4 @@
-# ARTEMIS v2 — Inference Server
+# ARTEMIS — Inference Server
 
 Server inferensi untuk sistem deteksi kebakaran berbasis YOLOv8. Menerima frame dari edge node (Raspberry Pi) dan mengembalikan hasil deteksi api/asap.
 
