@@ -18,6 +18,7 @@ pip install -r requirements.txt
 ## Download Model
 
 ```bash
+mkdir -p model
 curl https://model.weartemis.me/best.pt -o model/best.pt
 ```
 
