@@ -31,6 +31,16 @@ python3 scripts/run_server.py \
     --device cpu
 ```
 
+## Menjalankan Server di Background
+
+```bash
+nohup python3 scripts/run_server.py \
+ --model model/best.pt \
+ --port 8000 \
+ --device cpu > logs/server.log 2>&1 &
+
+```
+
 Gunakan `--device cuda` jika tersedia GPU.
 
 ## Verifikasi
