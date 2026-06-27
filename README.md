@@ -22,6 +22,11 @@ mkdir -p model
 curl https://model.weartemis.me/best.pt -o model/best.pt
 ```
 
+## Allow port
+```bash
+sudo ufw allow 8000
+```
+
 ## Menjalankan Server
 
 ```bash
