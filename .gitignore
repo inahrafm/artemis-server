@@ -9,3 +9,7 @@ __pycache__/
 *.pkl
 nohup.out
 venv/
+.ipynb_checkpoints/
+config/
+data/
+edge/
